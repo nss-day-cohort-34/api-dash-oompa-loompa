@@ -3,4 +3,14 @@ body {
 }
 
 .todoContainer {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  padding-top: 15px;
+}
+.sectionTodo {
+  border: 5px solid burlywood;
+  width: 20%;
+  text-align: center;
+  margin: 15px;
 }
