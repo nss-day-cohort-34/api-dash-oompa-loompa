@@ -7,6 +7,7 @@ const todoSelector = document.querySelector(".todoContainer")
 const todoFetcher = () => {
     // Fetch the data
     fetch("https://jsonplaceholder.typicode.com/todos")
+        // would add -> ?_limit=30 after todos" lets you set a limit on how much to pull from api
         .then(data => data.json())
         // Do something with the parsed data
         .then((arrayOfTodos) => {
