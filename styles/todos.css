@@ -1,6 +1,22 @@
 body {
   background-color: blanchedalmond;
+  background-image: url(/todo.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
 }
 
 .todoContainer {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  padding-top: 15px;
+}
+.sectionTodo {
+  border: 5px solid burlywood;
+  width: 20%;
+  text-align: center;
+  margin: 15px;
+  background-color: azure;
+  opacity: 0.9;
 }
